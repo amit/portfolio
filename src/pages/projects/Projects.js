@@ -2,15 +2,13 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
+// import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import {
   greeting,
   projectsHeader,
-  publicationsHeader,
-  publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
@@ -63,7 +61,7 @@ class Projects extends Component {
         />
 
         {/* Publications  */}
-        {publications.data.length > 0 ? (
+        {/* {publications.data.length > 0 ? (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
               <div className="publications-heading-div">
@@ -90,7 +88,7 @@ class Projects extends Component {
           {publications.data.map((pub) => {
             return <PublicationCard pub={pub} theme={theme} />;
           })}
-        </div>
+        </div> */}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
