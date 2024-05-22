@@ -27,18 +27,18 @@ export default class Main extends Component {
             }
           />
           <Route
-            path="/home"
+            path="/portfolio/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
-            path="/experience"
+            path="/portfolio/experience"
             exact
             render={(props) => (
               <Experience {...props} theme={this.props.theme} />
             )}
           />
           <Route
-            path="/education"
+            path="/portfolio/education"
             render={(props) => (
               <Education {...props} theme={this.props.theme} />
             )}
@@ -63,12 +63,12 @@ export default class Main extends Component {
           )}
 
           <Route
-            path="/projects"
+            path="/portfolio/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
           />
           <Route
             path="*"
-            render={(props) => <Error404 {...props} theme={this.props.theme} />}
+            render={(props) =><Home {...props} theme={this.props.theme} />}
           />
         </Switch>
       </BrowserRouter>

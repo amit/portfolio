@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Aniket Chakradeo Portfolio",
     type: "website",
-    url: "http:/AniCricKet.github.io/portfolio",
+    url: "http:/AniCricKet.github.io/portfolio/",
   },
 };
 
