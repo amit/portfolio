@@ -13,7 +13,7 @@ import { settings } from "../portfolio.js";
 export default class Main extends Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/portfolio">
         <Switch>
           <Route
             path="/"
@@ -68,7 +68,7 @@ export default class Main extends Component {
           />
           <Route
             path="*"
-            render={(props) =><Home {...props} theme={this.props.theme} />}
+            render={(props) => <Home {...props} theme={this.props.theme} />}
           />
         </Switch>
       </BrowserRouter>
