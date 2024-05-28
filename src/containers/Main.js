@@ -8,12 +8,12 @@ import Experience from "../pages/experience/Experience";
 // import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
-// import Error404 from "../pages/errors/error404/Error";
+import Error404 from "../pages/errors/error404/Error";
 
 export default class Main extends Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/portfolio">
         <Switch>
           <Route
             path="/"
@@ -27,18 +27,18 @@ export default class Main extends Component {
             }
           />
           <Route
-            path="/portfolio/home"
+            path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
-            path="/portfolio/experience"
+            path="/experience"
             exact
             render={(props) => (
               <Experience {...props} theme={this.props.theme} />
             )}
           />
           <Route
-            path="/portfolio/education"
+            path="/education"
             render={(props) => (
               <Education {...props} theme={this.props.theme} />
             )}
@@ -63,12 +63,12 @@ export default class Main extends Component {
           )}
 
           <Route
-            path="/portfolio/projects"
+            path="/projects"
             render={(props) => <Projects {...props} theme={this.props.theme} />}
           />
           <Route
             path="*"
-            render={(props) =><Home {...props} theme={this.props.theme} />}
+            render={(props) => <Error404 {...props} theme={this.props.theme} />}
           />
         </Switch>
       </BrowserRouter>
