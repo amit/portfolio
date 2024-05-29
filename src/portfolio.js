@@ -356,30 +356,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "Del Norte High School",
+      subtitle: "High School Degree",
+      logo_path: "dnhs_logo.png",
+      alt_name: "DNHS",
+      duration: "2021 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Currently getting high school diploma at Del Norte High School, graduating with a total of 10 AP classes:",
+        " AP Calculus AB, AP Calculus BC, AP Computer Science Principles, AP Computer Science A, AP English Language and Composition, AP English Literature and Composition, AP Environmental Science, AP Physics C: Mechanics, AP Statistics, AP United States Government and Politics",
+        "⚡ Completed a computer science program, gaining proficiency in full-stack development with AWS, SQL, Git, and VSCode. Excelled in AP Computer Science courses and Data Structures, mastering frontend tools like SASS and HTML, and developing backends with Flask and SpringBoot. Skilled in collaborative tools like GitHub and VSCode LiveShare, with experience in agile methodologies. Regularly presented technical concepts at school events, demonstrating strong communication skills and a commitment to an inclusive learning environment."
       ],
-      website_link: "http://iiitk.ac.in",
-    },
-    {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://delnorte.powayusd.com/",
     },
   ],
 };
