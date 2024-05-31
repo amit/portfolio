@@ -484,9 +484,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Volunteering",
+  // subtitle: "Work, Internships, and Volunteering",
   description:
-    "I have volunteered with lots of non-profit organizations and used my software engineering skills to develop websites for them.",
+    "I'm actively on the lookout for opportunities to use my software engineering skills to help companies and non-profit organizations develop websites and market products.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -541,6 +541,7 @@ const experience = {
     },
     {
       title: "Internships",
+      internships: true,
       experiences: [
         {
           title: "Machine Learning Intern",
@@ -580,6 +581,7 @@ const experience = {
     },
     {
       title: "Volunteerships",
+      volunteerships: true,
       experiences: [
         {
           title: "Chapter Head and Youth Ambassador",
