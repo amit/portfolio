@@ -489,95 +489,95 @@ const experience = {
     "I have volunteered with lots of non-profit organizations and used my software engineering skills to develop websites for them.",
   header_image_path: "experience.svg",
   sections: [
-    {
-      title: "Work",
-      work: true,
-      experiences: [
-        {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
-          description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
-          color: "#000000",
-        },
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
-        },
-      ],
-    },
+    // {
+    //   title: "Work",
+    //   work: true,
+    //   experiences: [
+    //     {
+    //       title: "Machine Learning Engineer",
+    //       company: "TikTok Inc.",
+    //       company_url: "https://www.tiktok.com/en/",
+    //       logo_path: "tiktok_logo.png",
+    //       duration: "June 2023 - Present",
+    //       location: "San Jose, CA, USA",
+    //       description:
+    //         "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+    //       color: "#000000",
+    //     },
+    //     {
+    //       title: "Associate AI Engineer",
+    //       company: "Legato Health Technology",
+    //       company_url: "https://legatohealthtech.com/",
+    //       logo_path: "legato_logo.png",
+    //       duration: "June 2020 - Aug 2021",
+    //       location: "Hyderabad, Telangana",
+    //       description:
+    //         "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+    //       color: "#0879bf",
+    //     },
+    //     {
+    //       title: "Android and ML Developer",
+    //       company: "Muffito Incorporation",
+    //       company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+    //       logo_path: "muffito_logo.png",
+    //       duration: "May 2018 - Oct 2018",
+    //       location: "Pune, Maharashtra",
+    //       description:
+    //         "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+    //       color: "#9b1578",
+    //     },
+    //     {
+    //       title: "Android Developer",
+    //       company: "FreeCopy Pvt. Ltd.",
+    //       company_url: "https://www.linkedin.com/company/freecopy/about/",
+    //       logo_path: "freecopy_logo.png",
+    //       duration: "Nov 2017 - Dec 2017",
+    //       location: "Ahmedabad, Gujarat",
+    //       description:
+    //         "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+    //       color: "#fc1f20",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Internships",
+    //   experiences: [
+    //     {
+    //       title: "Machine Learning Intern",
+    //       company: "TikTok Inc.",
+    //       company_url: "https://www.tiktok.com/en/",
+    //       logo_path: "tiktok_logo.png",
+    //       duration: "May 2022 - Aug 2022",
+    //       location: "San Francisco, USA",
+    //       description:
+    //         "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+    //       color: "#000000",
+    //     },
+    //     {
+    //       title: "Data Science Research Intern",
+    //       company: "Delhivery Pvt. Ltd.",
+    //       company_url: "https://www.delhivery.com/",
+    //       logo_path: "delhivery_logo.png",
+    //       duration: "May 2019 - Sept 2019",
+    //       location: "Gurgaon, Haryana",
+    //       description:
+    //         "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+    //       color: "#ee3c26",
+    //     },
+    //     {
+    //       title: "Data Science Intern",
+    //       company: "Intel Indexer LLC",
+    //       company_url:
+    //         "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
+    //       logo_path: "intel_logo.jpg",
+    //       duration: "Nov 2018 - Dec 2018",
+    //       location: "Work From Home",
+    //       description:
+    //         "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+    //       color: "#0071C5",
+    //     },
+    //   ],
+    // },
     {
       title: "Volunteerships",
       experiences: [
@@ -589,7 +589,7 @@ const experience = {
           duration: "July 2020 - Present",
           location: "San Diego, California",
           description:
-            "Youth Ambassador for the San Diego Akshaya Patra branch, the largest global Akshaya Patra chapter. Currently a local chapter head, leading various different projects, and raising thousands of dollars to help feed underprivileged children in India.",
+            "The Akshaya Patra Foundation is the world's largest NGO school meal program, providing mid-day school lunches to over 2.2 million children in more than 24,000 schools across India every day. As a youth ambassador for the San Diego Akshaya Patra branch, the largest global Akshaya Patra chapter, and currently a local chapter head, I lead various projects and have raised thousands of dollars to help feed underprivileged children in India. The foundation aims to counter classroom hunger and support children's education. In my role, I have successfully organized fundraisers such as sapling drives and summer camps, performed at fundraising events, created promotional materials to advertise these events, recruited and trained new members, and managed teams of youth ambassadors to further our mission of providing nutritious meals to children in need.",
           color: "#4285F4",
         },
       ],
