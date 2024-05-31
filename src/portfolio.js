@@ -67,7 +67,7 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Learning how to develop models for various deeplearning and statistical use cases",
+        "⚡ Learning how to develop models for various deep-learning and statistical use cases",
         "⚡ Experience of using Python for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
@@ -113,7 +113,7 @@ const skills = {
       skills: [
         "⚡ Building responsive website front end using React or HTML",
         "⚡ Developing mobile applications using Flutter",
-        "⚡ Creating application backend in Node & Flask",
+        "⚡ Creating application backend in Springboot & Flask",
       ],
       softwareSkills: [
         {
@@ -194,9 +194,7 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Hosting and maintaining websites on AWS EC2 instances along with integration of databases",
       ],
       softwareSkills: [
         // {
@@ -262,7 +260,6 @@ const skills = {
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
